@@ -2,6 +2,7 @@
 .navbar__menu--links, .navbar__menu, .navbar__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar {
