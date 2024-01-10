@@ -176,13 +176,6 @@
   border-radius: 10%;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
 .animate {
   opacity: 0;
   transform: translateY(35px);
@@ -194,4 +187,10 @@
     opacity: 1;
     transform: translateY(0px);
   }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
