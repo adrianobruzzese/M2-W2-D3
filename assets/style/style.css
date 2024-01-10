@@ -65,7 +65,7 @@
 }
 .navbar__menu #button:hover {
   background: #ff8700;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .hero {
@@ -138,7 +138,7 @@
 .hero__container--btn {
   font-size: 1rem;
   background-color: #0d2738;
-  padding: 14px 32px;
+  padding: 14px 30px;
   border: none;
   border-radius: 4px;
   color: #fdfdfd;
@@ -201,8 +201,8 @@
 
 .animate {
   opacity: 0;
-  transform: translateY(35px);
-  animation: moveup 0.5s linear forwards;
+  transform: translateY(45px);
+  animation: moveup 0.7s linear forwards;
 }
 
 @keyframes moveup {
