@@ -67,13 +67,6 @@
   transition: all 0.3s ease;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
 .hero {
   background-color: #fdfdfd;
 }
@@ -181,4 +174,24 @@
   height: 80%;
   width: 80%;
   border-radius: 10%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(35px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }/*# sourceMappingURL=style.css.map */
