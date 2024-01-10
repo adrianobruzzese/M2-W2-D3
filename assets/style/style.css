@@ -63,7 +63,7 @@
   color: #fdfdfd;
 }
 .navbar__menu #button:hover {
-  background: #fe9c3b;
+  background: #ff8700;
   transition: all 0.3s ease;
 }
 
@@ -153,14 +153,36 @@
   color: #fdfdfd;
   text-decoration: none;
 }
-.hero__container--btn:after {
+.hero__container--btn.blue:after {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
-  background: #fe9c3b;
+  background: #0e6cff;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+.hero__container--btn.orange:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff8700;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+.hero__container--btn.green:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #4caf50;
   transition: all 0.3s;
   border-radius: 4px;
 }

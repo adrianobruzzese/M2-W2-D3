@@ -88,8 +88,20 @@
         color: $light;
         text-decoration: none;
       }
+
+      &--btn.blue:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: $lightBlue;
+        transition: all 0.3s;
+        border-radius: 4px;
+      }
   
-      &--btn:after {
+      &--btn.orange:after {
         position: absolute;
         content: '';
         top: 0;
@@ -97,6 +109,18 @@
         width: 0;
         height: 100%;
         background: $orangeRed;
+        transition: all 0.3s;
+        border-radius: 4px;
+      }
+
+      &--btn.green:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: $green;
         transition: all 0.3s;
         border-radius: 4px;
       }
